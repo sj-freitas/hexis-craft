@@ -1,0 +1,15 @@
+version: "3"
+volumes:
+  hexis-minecraft:
+services:
+  minecraft:
+    image: "itzg/minecraft-server"
+    environment:
+      OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      EULA: "TRUE"
+      VERSION: "1.14.4"
+      ONLINE_MODE: "FALSE"
+    ports:
+      - "25565:25565"
+    volumes:
+      - hexis-minecraft:/data
