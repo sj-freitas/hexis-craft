@@ -9,6 +9,7 @@ services:
       EULA: "TRUE"
       VERSION: "1.14.4"
       ONLINE_MODE: "FALSE"
+      INIT_MEMORY: "650M"
       MAX_MEMORY: "650M"
     ports:
       - "25565:25565"
