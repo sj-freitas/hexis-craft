@@ -2,8 +2,8 @@ version: "3"
 volumes:
   hexis-minecraft:
 services:
-  minecraft:
-    image: "itzg/minecraft-server"
+  minecraft:    
+    image: "itzg/minecraft-server:2018-1"
     environment:
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       ICON: "https://avatars3.githubusercontent.com/u/35294415?s=280&v=4"
@@ -14,6 +14,7 @@ services:
       ONLINE_MODE: "FALSE"
       INIT_MEMORY: "1G"
       MAX_MEMORY: "1G"
+      LEVEL: "Hexis"
     ports:
       - "25565:25565"
     volumes:
