@@ -3,12 +3,12 @@ volumes:
   hexis-minecraft:
 services:
   minecraft:
-    image: "itzg/minecraft-server:2018-1"
+    image: "itzg/minecraft-server"
     environment:
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       ICON: "https://avatars3.githubusercontent.com/u/35294415?s=280&v=4"
       DIFFICULTY: "hard" 
-      WORLD: "https://github.com/sj-freitas/hexis-craft/raw/master/hexis-craft/world.zip"
+      WORLD: "https://github.com/sj-freitas/hexis-craft/raw/master/hexis-craft/Hexis.zip"
       EULA: "TRUE"
       VERSION: "1.14.4"
       ONLINE_MODE: "FALSE"
