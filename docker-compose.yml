@@ -6,7 +6,7 @@ services:
     image: "itzg/minecraft-server"
     environment:
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
-      WORLD: "https://github.com/sj-freitas/hexis-craft/tree/master/hexis-craft/world.zip"
+      WORLD: "https://github.com/sj-freitas/hexis-craft/raw/master/hexis-craft/world.zip"
       EULA: "TRUE"
       VERSION: "1.14.4"
       ONLINE_MODE: "FALSE"
