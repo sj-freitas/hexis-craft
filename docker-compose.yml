@@ -3,9 +3,10 @@ volumes:
   hexis-minecraft:
 services:
   minecraft:
-    build: ./hexis-craft
+    image: "itzg/minecraft-server"
     environment:
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      WORLD: "https://github.com/sj-freitas/hexis-craft/hexis-craft/world.zip"
       EULA: "TRUE"
       VERSION: "1.14.4"
       ONLINE_MODE: "FALSE"
