@@ -12,9 +12,11 @@ services:
       EULA: "TRUE"
       VERSION: "1.14.4"
       ONLINE_MODE: "FALSE"
-      INIT_MEMORY: "1G"
-      MAX_MEMORY: "1G"
+      INIT_MEMORY: "2G"
+      MAX_MEMORY: "2G"
       LEVEL: "world"
+      OPS: "SergioFreitas"
+      MAX_PLAYERS: 64
     ports:
       - "25565:25565"
     volumes:
