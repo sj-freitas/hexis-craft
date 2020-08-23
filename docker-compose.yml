@@ -9,7 +9,7 @@ services:
       ICON: "https://a.wattpad.com/useravatar/fishyfishyfish.256.420526.jpg"
       DIFFICULTY: "hard" 
       EULA: "TRUE"
-      VERSION: "1.14.4"
+      VERSION: "1.16.2"
       ONLINE_MODE: "TRUE"
       INIT_MEMORY: "2G"
       MAX_MEMORY: "2G"
