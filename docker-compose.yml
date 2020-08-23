@@ -6,7 +6,7 @@ services:
     image: "itzg/minecraft-server:2018-1"
     environment:
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
-      ICON: "https://avatars3.githubusercontent.com/u/35294415?s=280&v=4"
+      ICON: "https://a.wattpad.com/useravatar/fishyfishyfish.256.420526.jpg"
       DIFFICULTY: "hard" 
       WORLD: "https://github.com/sj-freitas/hexis-craft/raw/master/hexis-craft/Hexis.zip"
       EULA: "TRUE"
